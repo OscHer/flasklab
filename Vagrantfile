@@ -4,6 +4,7 @@
 Vagrant.configure("2") do |config|
   BOOTSTRAP_SCRIPT = "provision/shell/bootstrap.sh"
   BOOTSTRAP_PYTHON = "provision/shell/bootstrap_python.sh"
+  BOOTSTRAP_DOCKER = "provision/shell/bootstrap_docker.sh"
 
   config.vm.box      = "bento/ubuntu-24.04"
   config.vm.hostname = "flasklab"
@@ -11,4 +12,5 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "bootstrap",        type: :shell, path: BOOTSTRAP_SCRIPT
   config.vm.provision "bootstrap_python", type: :shell, path: BOOTSTRAP_PYTHON
+  config.vm.provision "bootstrap_docker", type: :shell, path: BOOTSTRAP_DOCKER
 end
