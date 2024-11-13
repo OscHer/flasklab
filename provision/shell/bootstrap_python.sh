@@ -8,7 +8,4 @@
 # @description : python dependencies installation 
 ######################################################################
 
-apt-get install python3-pip
-
-
-
+apt-get install python3-pip -y
