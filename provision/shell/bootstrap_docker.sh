@@ -9,4 +9,5 @@
 ######################################################################
 
 apt-get install docker-compose -y
-
+usermod -aG docker vagrant  #TODO-oscar: abstract this into a variable and use into bootstrap scripts
+systemctl restart docker
