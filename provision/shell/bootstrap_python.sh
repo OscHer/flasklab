@@ -8,4 +8,4 @@
 # @description : python dependencies installation 
 ######################################################################
 
-apt-get install python3-pip python3-venv -y
+apt-get install python3-pip python3-venv python3-virtualenv -y
