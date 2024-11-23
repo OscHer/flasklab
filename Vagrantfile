@@ -14,5 +14,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "bootstrap_python", type: :shell, path: BOOTSTRAP_PYTHON
   config.vm.provision "bootstrap_docker", type: :shell, path: BOOTSTRAP_DOCKER
 
+  # This is where our source code lives
   config.vm.synced_folder "provision/files/", "/vagrant", type: "nfs", version: 4, nfs_udp: false
+
+  config.vm.network "forwarded_port", guest: 5000, host: 8080
 end
