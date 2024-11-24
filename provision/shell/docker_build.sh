@@ -8,10 +8,8 @@
 # @description : Build docker images 
 ######################################################################
 
-DOCKERFILE_PATH1="/vagrant/flask/holamundo/"
-APPLICATION_NAME1="holamundo"
+DOCKERFILE_PATH="/vagrant/flask/holamundo/"
+APPLICATION_NAME="holamundo"
 
-docker build -t $APPLICATION_NAME1 $DOCKERFILE_PATH1
-
-docker run -d -p 5000:5000 holamundo 
+docker build -t $APPLICATION_NAME $DOCKERFILE_PATH
 
