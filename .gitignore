@@ -3,5 +3,6 @@
 .*swp
 .*swp~
 .vagrant/
-env/
 
+env/
+__pycache__
