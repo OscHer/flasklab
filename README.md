@@ -20,6 +20,8 @@ My choices are [libvirt](https://www.vagrantup.com/) with [vagrant-libvirt](http
 ### Roadmap
 * Add dotfiles
 * Add developer's prompt: [starship](https://starship.rs/) and [ble.sh](https://github.com/akinomyoga/ble.sh)
+* Import python apps from other repos using git
+* [Treboform](https://github.com/OscHer/treboform) as [horleggor]()https://github.com/OscHer/treboform?tab=readme-ov-file#horleggor
 
 ### About the author
 Óscar Heredia 65867332+OscHer@users.noreply.github.com
