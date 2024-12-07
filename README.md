@@ -22,6 +22,7 @@ My choices are [libvirt](https://libvirt.org/) with [vagrant-libvirt](https://gi
 * Add developer's prompt: [starship](https://starship.rs/) and [ble.sh](https://github.com/akinomyoga/ble.sh)
 * Import python apps from other repos using git
 * [Treboform](https://github.com/OscHer/treboform) as [horleggor]()https://github.com/OscHer/treboform?tab=readme-ov-file#horleggor
+* Document standards and conventions 
 
 ### About the author
 Óscar Heredia 65867332+OscHer@users.noreply.github.com
